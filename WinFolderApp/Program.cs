@@ -16,7 +16,7 @@ namespace WinFolderApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormFolder());
+            Application.Run(new FormEmpty());
         }
     }
 }

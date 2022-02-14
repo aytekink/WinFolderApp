@@ -46,10 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormEmpty.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormEmpty.Designer.cs" />
     <Compile Include="FormFolder.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,7 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormEmpty.resx" />
     <EmbeddedResource Include="FormFolder.resx">
       <DependentUpon>FormFolder.cs</DependentUpon>
     </EmbeddedResource>

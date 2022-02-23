@@ -37,7 +37,7 @@ namespace WinFolderApp
             if (txtPath.Text != "" && Directory.Exists(txtPath.Text))
                 LoadDirectory(txtPath.Text);
             else
-                MessageBox.Show("Select Directory!!");
+                MessageBox.Show("Klasörü Seçiniz!");
         }
 
         public void LoadDirectory(string Dir)
